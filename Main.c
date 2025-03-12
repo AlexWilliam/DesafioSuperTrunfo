@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 void main(){ // optei pela utilização de void, não há necessidade de retorno int para a função
 
