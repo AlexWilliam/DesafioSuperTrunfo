@@ -10,6 +10,7 @@ void main(){ // optei pela utilização de void, não há necessidade de retorno
         - strtof: utilizado para conversão dos dados float para exibição
 
     Utilizei essas funções devido ao fato de que o scanf estar gerando muitos problemas com os inputs seguidos.
+    Para chegar ao resultado, foi efetuada pesquisa no google e em caso de erros, chatgpt para entender melhor pq o erro era gerado.
     */
 
     char estado1, estado2;
