@@ -4,30 +4,29 @@
 
 void main(){ 
 
-    char estado1, estado2, opcao1, opcao2;
-    char codigo1[5], codigo2[5], nomeCidade1[50], nomeCidade2[50];
-    int populacao1, populacao2, numeroPontosTuristicos1, numeroPontosTuristicos2, cartaVencedora;
-    float areaCidade1, areaCidade2, pibCidade1, pibCidade2, densidade1, densidade2, resultado1, resultado2;
+    char opcao1, opcao2;
+    int cartaVencedora;
+    float resultado1, resultado2;
 
     // dados da carta 1
-    estado1 = 'A';
-    codigo1[5] = 'A01';
-    nomeCidade1[50] = "Rio de Janeiro";
-    populacao1 = 6211000;
-    areaCidade1 = 1200;
-    pibCidade1 = 949301;
-    numeroPontosTuristicos1 = 200;    
-    densidade1 = populacao1 / areaCidade1;
+    char estado1 = 'A';
+    char codigo1[] = "A01";
+    char nomeCidade1[] = "Rio de Janeiro";
+    int populacao1 = 6211000;
+    int areaCidade1 = 1200;
+    int pibCidade1 = 949301;
+    int numeroPontosTuristicos1 = 200;    
+    float densidade1 = populacao1 / areaCidade1;
 
     // dados da carta 2
-    estado2 = 'B';
-    codigo2[5] = 'B01';
-    nomeCidade2[50] = "São Paulo";
-    populacao2 = 11451999;
-    areaCidade2 = 1521;
-    pibCidade2 = 2719751;
-    numeroPontosTuristicos2 = 100;
-    densidade2 = populacao2 / areaCidade2;
+    char estado2 = 'B';
+    char codigo2[] = "B01";
+    char nomeCidade2[] = "São Paulo";
+    int populacao2 = 11451999;
+    int areaCidade2 = 1521;
+    int pibCidade2 = 2719751;
+    int numeroPontosTuristicos2 = 100;
+    float densidade2 = populacao2 / areaCidade2;
 
 
     printf("Bem-vindo ao jogo Super Trunfo!\n");
